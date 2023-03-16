@@ -14,11 +14,6 @@
 # limitations under the License.
 #
 
-# Camera
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.cs.br=0.7 \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.aperture,org.lineageos.aperture.dev
-
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.qfp=false \
